@@ -1,4 +1,4 @@
-let slideIndex = 1;
+let slideIndex = 2;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -10,6 +10,9 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+
+document.getElementsByClassName("mySlides fade").style.display = "block";
+
 
 function showSlides(n) {
   let i;
