@@ -46,11 +46,12 @@ body {
 
 #sec1{
     position:relative;
-    top: 150px;
-    left:90px;
+    position-anchor:50%;
+    top: 20%;
+    left:13%;
     background-color: #fff;
     border:0%;
-    max-width: 20%;
+    max-width: 50%;
 }
 
 .MainText {
@@ -65,8 +66,7 @@ body {
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  position-anchor: 50%;
-  top : 500px;
+  top : 22%;
   margin: auto;
 }
 
@@ -153,4 +153,9 @@ body {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+#pfp {
+  max-width: 90%;
+  max-height: 90%;
 }
