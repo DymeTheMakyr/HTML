@@ -179,6 +179,9 @@ body {
   top:97%;
 }
 
-td {
+a {
   text-align: center;
+  color: white;
+  font:smooth;
+  
 }
