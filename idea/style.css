@@ -178,3 +178,7 @@ body {
   display:block;
   top:97%;
 }
+
+td {
+  text-align: center;
+}
