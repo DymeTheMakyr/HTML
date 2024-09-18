@@ -17,6 +17,27 @@ body {
     filter: blur(4px);
 }
 
+#links {
+  min-width:100%;
+}
+
+.headerColOuter{
+  min-width:25%;
+  width:25%;
+  text-align: center;
+  align-content: center;
+  font-family: smooth;
+  font-size:200%;
+}
+
+.headerColMain{
+  min-width:50%;
+  max-width: 50%;
+  width : 50%;
+  padding:0.0001px;
+  font-family:smooth;
+}
+
 .header {
     z-index: 2;
     padding:0%;
@@ -35,7 +56,9 @@ body {
     font-family: smooth;
     font-size:300%;
     margin-bottom: 0px;
+    margin:0px;
     opacity:100%;
+    width:fit-content;
 }
 
 .headerP {
@@ -177,4 +200,18 @@ body {
   position:relative;
   display:block;
   top:97%;
+}
+
+a {
+  text-align: center;
+  color: white;
+  font:smooth;
+  text-decoration: none;
+}
+
+a:hover{
+  text-align: center;
+  color: rgb(194, 194, 194);
+  font:smooth;
+  text-decoration: underline;
 }
